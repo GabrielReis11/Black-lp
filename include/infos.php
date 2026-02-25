@@ -61,6 +61,12 @@ $logos = [
         'instagram' => '@meninasdauro',
         'url' => 'https://www.instagram.com/meninasdauro',
     ],
+    [
+        'src' => 'img/logos/MTI.png',
+        'nome' => 'GRUPO MTI',
+        'instagram' => '@grupomti.manutencoes',
+        'url' => 'https://www.instagram.com/grupomti.manutencoes',
+    ],
 ];
 
 $depoimentos = [
