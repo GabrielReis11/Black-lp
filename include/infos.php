@@ -8,64 +8,58 @@ $extensoesPermitidas = ['jpeg', 'jpg', 'png', 'gif'];
 
 $logos = [
     [
-        'src' => 'img/logos/ADVOGADA-ALEXSANDRA-SOUZA.png',
-        'nome' => 'ADVOGADA ALEXSANDRA SOUZA',
-        'instagram' => '@draalexsandrasouza1'
-    ],
-    [
         'src' => 'img/logos/DRA.-GRAZIELE-ENDOCRINO.jpeg',
         'nome' => 'DRA. GRAZIELLE ENDOCRINO',
-        'instagram' => '@graziellebastos.endocrino'
-    ],
-    [
-        'src' => 'img/logos/FRANQUIA-AMETISTA-BARREIRAS.png',
-        'nome' => 'FRANQUIA AMETISTA BARREIRAS',
-        'instagram' => '@franquia_ametistanatura'
+        'instagram' => '@graziellebastos.endocrino',
+        'url' => 'https://www.instagram.com/graziellebastos.endocrino'
     ],
     [
         'src' => 'img/logos/MASTER-ESCRITORIOS.png',
         'nome' => 'MASTER ESCRITÓRIOS',
-        'instagram' => '@masterescritorios'
-    ],
-    [
-        'src' => 'img/logos/ADVOGADA-SAMYA-SANTANA.png',
-        'nome' => 'SAMYA SANTANA',
-        'instagram' => '@santanasamya'
-    ],
-    [
-        'src' => 'img/logos/PALHA-ITALIANA-GR.jpeg',
-        'nome' => 'PALHA ITALIANA GR',
-        'instagram' => '@palhaitalianagr'
-    ],
-    [
-        'src' => 'img/logos/PIJAMARIA-CONFORT.jpeg',
-        'nome' => 'PIJAMARIA COMFORT',
-        'instagram' => '@pijamariacomfort'
+        'instagram' => '@masterescritorios',
+        'url' => 'https://www.instagram.com/masterescritorios'
     ],
     [
         'src' => 'img/logos/PSICOLOGO-LUIZ-FERNANDO.jpeg',
         'nome' => 'PSICÓLOGO LUIZ FERNANDO',
-        'instagram' => '@psicologo.luizfernando.nunes'
+        'instagram' => '@psicologo.luizfernando.nunes',
+        'url' => 'https://www.instagram.com/psicologo.luizfernando.nunes'
     ],
     [
         'src' => 'img/logos/RDC-RAD-SERVICE.png',
         'nome' => 'RDC RAD SERVICE',
-        'instagram' => '@rdc.radservice'
+        'instagram' => '@rdc.radservice',
+        'url' => 'https://www.instagram.com/rdc.radservice'
     ],
     [
         'src' => 'img/logos/THALLITA-TORRES-PSICOLOGA-INFANTIL.png',
         'nome' => 'THALLITA TORRES PSICÓLOGA INFANTIL',
-        'instagram' => '@thallita.psicoinfantil'
-    ],
-    [
-        'src' => 'img/logos/YASMIN-LIMA-FASHION-STORE.png',
-        'nome' => 'YASMIN LIMA FASHION STORE',
-        'instagram' => '@yasmin.lima.fashion'
+        'instagram' => '@thallita.psicoinfantil',
+        'url' => 'https://www.instagram.com/thallita.psicoinfantil'
     ],
     [
         'src' => 'img/logos/CONSULTORA-LUIZE-HESS.png',
         'nome' => 'CONSULTORA LUIZE HESS',
-        'instagram' => '@luizehess'
+        'instagram' => '@luizehess',
+        'url' => 'https://www.instagram.com/luizehess',
+    ],
+    [
+        'src' => 'img/logos/3-MARIAS.png',
+        'nome' => '3MARIAS SEMIJOIAS',
+        'instagram' => '@3mariasjoiasse',
+        'url' => 'https://www.instagram.com/3mariasjoiasse',
+    ],
+    [
+        'src' => 'img/logos/SALAO-1985.png',
+        'nome' => 'SALÃO 1985',
+        'instagram' => '@salao19585aracaju',
+        'url' => 'https://www.instagram.com/salao19585aracaju',
+    ],
+    [
+        'src' => 'img/logos/MENINAS-DA-URO.png',
+        'nome' => 'MENINAS DA URO',
+        'instagram' => '@meninasdauro',
+        'url' => 'https://www.instagram.com/meninasdauro',
     ],
 ];
 

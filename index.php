@@ -145,15 +145,16 @@ $tamanhos = ['s', 'm', 'l'];
                     <div class="logo-grid">
                         <?php foreach ($logos as $logo): ?>
                             <div class="logo-item">
-                                <img
-                                        src="<?= $logo['src'] ?>"
-                                        alt="<?= $logo['nome'] ?>"
-                                        title="<?= $logo['nome'] ?>"
-                                        data-src="<?= $logo['src'] ?>"
-                                        data-nome="<?= $logo['nome'] ?>"
-                                        data-instagram="<?= $logo['instagram'] ?>"
-                                >
-
+                                <a href="<?= $logo['url'] ?>" target="_blank">
+                                    <img    style="border-radius: 20%"
+                                            src="<?= $logo['src'] ?>"
+                                            alt="<?= $logo['nome'] ?>"
+                                            title="<?= $logo['nome'] ?>"
+                                            data-src="<?= $logo['src'] ?>"
+                                            data-nome="<?= $logo['nome'] ?>"
+                                            data-instagram="<?= $logo['instagram'] ?>"
+                                    >
+                                </a>
                             </div>
                         <?php endforeach; ?>
                     </div>
