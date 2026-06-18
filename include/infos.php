@@ -44,18 +44,6 @@ $logos = [
         'url' => 'https://www.instagram.com/luizehess',
     ],
     [
-        'src' => 'img/logos/3-MARIAS.png',
-        'nome' => '3MARIAS SEMIJOIAS',
-        'instagram' => '@3mariasjoiasse',
-        'url' => 'https://www.instagram.com/3mariasjoiasse',
-    ],
-    [
-        'src' => 'img/logos/SALAO-1985.png',
-        'nome' => 'SALÃO 1985',
-        'instagram' => '@salao19585aracaju',
-        'url' => 'https://www.instagram.com/salao19585aracaju',
-    ],
-    [
         'src' => 'img/logos/MENINAS-DA-URO.png',
         'nome' => 'MENINAS DA URO',
         'instagram' => '@meninasdauro',
