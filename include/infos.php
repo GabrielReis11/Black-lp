@@ -8,12 +8,6 @@ $extensoesPermitidas = ['jpeg', 'jpg', 'png', 'gif'];
 
 $logos = [
     [
-        'src' => 'img/logos/DRA.-GRAZIELE-ENDOCRINO.jpeg',
-        'nome' => 'DRA. GRAZIELLE ENDOCRINO',
-        'instagram' => '@graziellebastos.endocrino',
-        'url' => 'https://www.instagram.com/graziellebastos.endocrino'
-    ],
-    [
         'src' => 'img/logos/MASTER-ESCRITORIOS.png',
         'nome' => 'MASTER ESCRITÓRIOS',
         'instagram' => '@masterescritorios',
@@ -54,6 +48,30 @@ $logos = [
         'nome' => 'GRUPO MTI',
         'instagram' => '@grupomti.manutencoes',
         'url' => 'https://www.instagram.com/grupomti.manutencoes',
+    ],
+    [
+        'src' => 'img/logos/CASA-GABI.png',
+        'nome' => 'CASA GABI',
+        'instagram' => '@casagabi.se',
+        'url' => 'https://www.instagram.com/casagabi.se',
+    ],
+    [
+        'src' => 'img/logos/MANANCIAL-CONFORT-FOOD.png',
+        'nome' => 'MANANCIAL COMFORT FOOD',
+        'instagram' => '@manancial.confortfood',
+        'url' => 'https://www.instagram.com/manancial.confortfood',
+    ],
+    [
+        'src' => 'img/logos/OPTICA-SOLARES.png',
+        'nome' => 'ÓPTICA SOLARES',
+        'instagram' => '@opticasolares.aju',
+        'url' => 'https://www.instagram.com/opticasolares.aju',
+    ],
+    [
+        'src' => 'img/logos/REGIANI-ABREU-ADVOGADA.png',
+        'nome' => 'REGIANI ABREU ADVOGADA',
+        'instagram' => '@regiani.advogada',
+        'url' => 'https://www.instagram.com/regiani.advogada',
     ],
 ];
 
