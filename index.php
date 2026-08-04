@@ -60,6 +60,19 @@ if ($siteUrl !== '') {
         <?= json_encode($structuredData, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) ?>
     </script>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CZS88LNDE4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'G-CZS88LNDE4');
+    </script>
+
     <link rel="icon" type="image/png" href="<?= e($site_config['favicon']) ?>">
     <link rel="stylesheet" href="style/css/style.css">
 
