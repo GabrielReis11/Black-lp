@@ -1,0 +1,10 @@
+@use '../variables' as *;
+
+.footer {
+  background-color: $color-black;
+  color: $color-white;
+
+  .copyright {
+    font-size: 0.9rem;
+  }
+}

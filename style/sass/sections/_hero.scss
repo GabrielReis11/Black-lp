@@ -1,0 +1,57 @@
+@use '../variables' as *;
+@use '../mixins' as *;
+
+.hero {
+  @include flex-center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: $color-black;
+
+  #particles-js {
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .container-fluid {
+    z-index: 1;
+  }
+
+  .hero-logo {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    transform: translateY(-2%);
+  }
+
+  @media (min-width: 1200px) {
+    .hero-logo {
+      max-width: 560px;
+    }
+  }
+}
+
+.scroll-down-arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 3;
+  color: $color-white;
+  font-size: 2.5rem;
+  transform: translateX(-50%);
+
+  i {
+    display: inline-block;
+    animation: bounce 2s infinite;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+}

@@ -1,0 +1,24 @@
+@use '../variables' as *;
+@use '../mixins' as *;
+
+.btn-custom {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 1rem;
+  border-radius: 0.5rem;
+  background-color: $color-black;
+  color: $color-white;
+  font-weight: 600;
+  @include transition;
+
+  &:hover,
+  &:focus-visible {
+    background-color: $color-primary;
+    color: $color-white;
+    transform: translateY(-2px);
+  }
+
+  i {
+    font-size: 1.2rem;
+  }
+}

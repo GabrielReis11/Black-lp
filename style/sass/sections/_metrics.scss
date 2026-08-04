@@ -1,0 +1,20 @@
+@use '../variables' as *;
+
+.metrics {
+  background-color: $color-secondary;
+
+  h2,
+  p {
+    color: $color-black;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  img {
+    max-height: 350px;
+    object-fit: contain;
+  }
+}

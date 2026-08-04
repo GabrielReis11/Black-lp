@@ -1,0 +1,44 @@
+@use '../variables' as *;
+
+.testimonials {
+  background-color: $color-dark;
+  color: $color-white;
+
+  .blockquote {
+    font-size: 1.1rem;
+    font-style: italic;
+  }
+
+  .carousel-inner {
+    padding: 1rem 0;
+  }
+
+  .carousel-item img {
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 50%;
+    z-index: 10;
+    width: 5%;
+    transform: translateY(-50%);
+  }
+
+  .carousel-control-prev {
+    left: -40px;
+  }
+
+  .carousel-control-next {
+    right: -40px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: $color-black;
+    filter: invert(1);
+  }
+}

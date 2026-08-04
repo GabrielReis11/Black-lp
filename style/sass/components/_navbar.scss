@@ -1,0 +1,48 @@
+@use '../variables' as *;
+@use '../mixins' as *;
+
+#mainNavbar {
+  background-color: transparent;
+  @include transition;
+
+  .navbar-brand,
+  .nav-link {
+    color: $color-white !important;
+    @include transition;
+  }
+
+  .nav-link {
+    font-weight: 500;
+  }
+
+  .navbar-toggler {
+    border-color: rgba($color-white, 0.65);
+    color: $color-white;
+
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba($color-primary, 0.35);
+    }
+  }
+
+  .navbar-menu-icon {
+    display: block;
+    font-size: 1.75rem;
+    line-height: 1;
+  }
+
+  &.scrolled,
+  &:has(.navbar-collapse.show) {
+    background-color: $color-white !important;
+    box-shadow: 0 4px 6px rgba($color-black, 0.1);
+
+    .navbar-brand,
+    .nav-link {
+      color: $color-black !important;
+    }
+
+    .navbar-toggler {
+      border-color: rgba($color-black, 0.25);
+      color: $color-black;
+    }
+  }
+}

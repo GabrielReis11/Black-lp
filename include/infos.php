@@ -1,10 +1,47 @@
 <?php
 
-$logos = [];
+/**
+ * Configurações gerais e SEO.
+ *
+ * Preencha "url_site" quando o domínio definitivo estiver publicado. Enquanto
+ * estiver vazio, a página não gera canonical nem og:url com endereço incorreto.
+ */
+$site_config = [
+    'nome_cliente' => 'Black Conteúdo Criativo',
+    'segmento' => 'Marketing Digital e Design para Redes Sociais',
+    'titulo_seo' => 'Black Conteúdo Criativo | Marketing Digital e Social Media',
+    'descricao_seo' => 'Estratégia, design e gestão de redes sociais para marcas que querem se posicionar, engajar e crescer com autenticidade no digital.',
+    'keywords' => 'marketing digital, social media, design para redes sociais, gestão de Instagram, identidade visual, criação de conteúdo',
+    'autor' => 'Black Conteúdo Criativo',
+    'cor_tema' => '#000000',
+    'favicon' => 'img/favicon.png',
+    'imagem_social' => 'img/Black-Logo.png',
+    'url_site' => '',
+];
 
-$diretorio = __DIR__ . '/../img/logos/';
-$urlBase = 'img/logos/';
-$extensoesPermitidas = ['jpeg', 'jpg', 'png', 'gif'];
+/**
+ * Contatos e redes sociais.
+ */
+$contatos = [
+    'whatsapp' => [
+        'numero' => '557996301399',
+        'mensagem' => 'Olá! Vi o site da Black e gostaria de mais informações.',
+    ],
+    'instagram' => 'https://www.instagram.com/black.criativo/',
+    'email' => 'jssjess93@yahoo.com.br',
+];
+
+/**
+ * Dependências opcionais. Os includes cdns.php e scripts.php usam estas flags
+ * para evitar o carregamento de bibliotecas que a página não utiliza.
+ */
+$plugins = [
+    'aos' => true,
+    'particles' => true,
+    'typewriter' => true,
+    'lightbox' => false,
+    'swiper' => false,
+];
 
 $logos = [
     [
@@ -183,9 +220,7 @@ $planos = [
 ];
 
 
-// infos.php
-
-// Coleta as imagens da pasta /img/metricas/
+// Coleta automaticamente as imagens da pasta /img/metricas/.
 $metricasDir = __DIR__ . '/../img/metricas/';
 $urlBaseMetricas = 'img/metricas/';
 $extensoesPermitidas = ['jpeg', 'jpg', 'png', 'gif'];
@@ -201,5 +236,21 @@ if (is_dir($metricasDir)) {
     }
 }
 
+/**
+ * Retorna texto seguro para uso no HTML.
+ */
+function e(string $valor): string
+{
+    return htmlspecialchars($valor, ENT_QUOTES, 'UTF-8');
+}
 
+/**
+ * Monta o link de atendimento usando os dados centralizados em $contatos.
+ */
+function getWhatsLink(array $contatos): string
+{
+    $numero = preg_replace('/\D+/', '', $contatos['whatsapp']['numero']);
+    $mensagem = urlencode($contatos['whatsapp']['mensagem']);
 
+    return "https://wa.me/{$numero}?text={$mensagem}";
+}

@@ -1,0 +1,51 @@
+@use '../variables' as *;
+@use '../mixins' as *;
+
+.about {
+  @include flex-center;
+  min-height: 50vh;
+
+  .titulo-empresa {
+    font-family: $font-title;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .typewriter-text {
+    min-height: 3rem;
+    color: $color-primary;
+    font-family: $font-title;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .text-empresa,
+  .text-dona {
+    font-family: $font-main;
+  }
+
+  .card-zone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      object-position: left;
+    }
+
+    .text-dona {
+      color: $color-text;
+      font-size: 1rem;
+    }
+  }
+
+  @include small-mobile {
+    .card-zone {
+      margin-top: 3rem;
+      text-align: center;
+    }
+  }
+}
