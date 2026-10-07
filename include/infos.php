@@ -93,12 +93,6 @@ $logos = [
         'url' => 'https://www.instagram.com/casagabi.se',
     ],
     [
-        'src' => 'img/logos/MANANCIAL-CONFORT-FOOD.png',
-        'nome' => 'MANANCIAL COMFORT FOOD',
-        'instagram' => '@manancial.confortfood',
-        'url' => 'https://www.instagram.com/manancial.confortfood',
-    ],
-    [
         'src' => 'img/logos/OPTICA-SOLARES.png',
         'nome' => 'ÓPTICA SOLARES',
         'instagram' => '@opticasolares.aju',
