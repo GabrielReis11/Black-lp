@@ -104,6 +104,12 @@ $logos = [
         'instagram' => '@regiani.advogada',
         'url' => 'https://www.instagram.com/regiani.advogada',
     ],
+    [
+        'src' => 'img/logos/RAQUEL-VALENCA-PSICOLOGA.png',
+        'nome' => 'PSICOLOGA RAQUEL VALENÇA',
+        'instagram' => '@raquelvalenca.psi',
+        'url' => 'https://www.instagram.com/raquelvalenca.psi',
+    ],
 ];
 
 $depoimentos = [
